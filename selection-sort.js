@@ -10,14 +10,12 @@ function selectionSort(array) {
 	for (let Lum = 0; Lum < array.length; Lum++) {
 		if (bignum < array[wum]) {
 			bignum = array[wum]
-			console.log(bignum + 'yellow');
 			wum++
 	}else{wum++}}
 
 	for (let Lum = 0; Lum < array.length; Lum++) {
 		if (smallnum > array[yum]) {
 		smallnum = array[yum]
-		console.log(smallnum +"ello");
 		yum++
 	}else{yum++}}
 
@@ -40,11 +38,9 @@ function selectionSort(array) {
 			one = one+check
 			}
 			num--
-			console.log(num);
 			if(numruns == 50){
 				return array
 			}
-		
 	}
 	return array;
 }

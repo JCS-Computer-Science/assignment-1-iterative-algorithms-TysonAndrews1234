@@ -1,5 +1,4 @@
 function bubbleSort(array) {
-	let num = 0
 	let check = 1 
 	while (check == 1 ) {
 		check = 0 
@@ -12,7 +11,6 @@ function bubbleSort(array) {
 			check = 1 
 		}
 	}	
-num++
 
 }
 if (check == 0) {
